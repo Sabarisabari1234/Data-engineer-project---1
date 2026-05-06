@@ -1,0 +1,18 @@
+{
+	"name": "DS_HTTP_Kaggle",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Http_kaggle",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/api/v1/datasets/download/mohitkumar282/used-car-dataset"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

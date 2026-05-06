@@ -1,0 +1,15 @@
+{
+	"name": "adfusedcars",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ce274fa3-541a-45b9-bc8f-abde8ef5f341",
+		"tenantId": "c850ae23-e2ba-402d-bad6-cb425e8d29dc"
+	}
+}
